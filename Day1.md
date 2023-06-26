@@ -1,6 +1,7 @@
 
 Day 1 Problem's solutions:
-1. [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature)
+
+1 [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature)
 
     class Solution(object):
         def convertTemperature(self, celsius):
@@ -10,7 +11,8 @@ Day 1 Problem's solutions:
             """
             return [celsius + 273.15, celsius*1.80 + 32.00]
 
-2. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs)
+
+2 [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs)
 
     class Solution(object):
         def numIdenticalPairs(self, nums):
@@ -26,7 +28,8 @@ Day 1 Problem's solutions:
     
             return pairs
 
-3. [Add Two Integers](https://leetcode.com/problems/add-two-integers)
+
+3[Add Two Integers](https://leetcode.com/problems/add-two-integers)
 
     class Solution(object):
         def sum(self, num1, num2):
@@ -36,4 +39,4 @@ Day 1 Problem's solutions:
             :rtype: int
             """
     
-    	    return num1+num2
+            return num1+num2
